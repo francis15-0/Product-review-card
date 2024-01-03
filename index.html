@@ -47,11 +47,11 @@
     .right-side{
       display: flex;
       flex-direction: column;
-      width: 230px;
+      width: 220px;
     }
     .perfume-text{
       font-family: 'Montserrat', sans-serif;
-      margin-top: 20PX;
+      margin-top: 25px;
       font-size: 12px;
       color: hsl(228, 12%, 48%);
     }
@@ -73,14 +73,50 @@
     .price-flex{
       display: flex;
       justify-content: space-between;
+      align-items: center;
       margin-top: 10px;
-      width: 140px;
+      width: 160px;
     }
 
-    .span-price{
+    .big-price{
+      font-family: 'Fraunces', serif;
+      font-size: 25px;
+      color: hsl(158, 36%, 37%);
       
     }
 
+    .span-price{
+      text-decoration: line-through;
+      color: hsl(228, 12%, 48%);
+      font-size: 13px;
+    }
+    .cart-button{
+      margin-top: 15px;
+      border: none;
+      height: 30px;
+      border-radius: 5px;
+      width: 200px;
+      background-color: hsl(158, 36%, 37%);
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .button-div{
+      
+      display: flex;
+      width: 85px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .button-div > p{
+      font-family: 'Fraunces', serif;
+      font-size: 11px;
+      
+    }
 
   </style>
 </head>
@@ -102,8 +138,14 @@
   <span class="span-price">$169.99</span>
 </div>
   
-
-  Add to Cart
+<button class="cart-button">
+  <div class="button-div">
+  <img src="images/icon-cart.svg" alt="">
+  <p>Add to Cart</p>
+  </div>
+  
+</button>
+  
     </div>
    
   </div>

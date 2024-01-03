@@ -9,4 +9,4 @@
 - Flexbox
 
 ### Links
-- Live Site URL: [Add live site URL here](https://francis15-0.github.io/Product-review-card/)
+- Live Site URL: [Live site](https://francis15-0.github.io/Product-review-card/)
